@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  :root {
+    --primary: #2A7AE4;
+    --red: #f44336;
+    --purple: #4a148c;
+    --deeppurple: #311b92;
+    --black: #000000;
+    --blackLighter: #9E9E9E;
+    --grayLight: #F5F5F5;
+    --grayMedium: #e5e5e5; 
+    --white: #FFFFFF;
+    --frontEnd: #6BD1FF;
+    --backEnd: #00C86F;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+  }
+
+  #root {
+    min-height: calc(100vh - var(--bodyPaddingTop));
+    display: flex;
+    flex-direction: column;
+  }
+/* meu css */
+  h1 {
+    text-align: center;
+  }
+
+  .meuForm {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', opens-sans;
+    font-size: 20px;
+  }
+
+  .meuForm input, .meuForm select {
+    border-bottom: 2px solid red;
+  }
+  
+  #botoes {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .botao {
+    cursor: pointer;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    background: var(--red);
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+  }
+
+  .botao:hover {
+    transition: background 0.5s linear;
+    background: #c62828;
+  }
+
+  #botaoLimpar {
+    color: black;
+    background: gray;
+  }
+
+  #botaoLimpar:hover {
+    color: #cecece;
+    transition: background 0.5s linear;
+    background: #424242;
+  }
+
+  .linkPara {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    border: 1px solid var(--red);
+    border-radius: 5px;
+    line-height: 40px;
+  }
+
+  .linkPara:hover {
+    color: #424242;
+    border: 1px solid #b71c1c;
+    transition: 0.2s linear;
+  }
+
+  .imgCentro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    list-style: circle;
+  }
